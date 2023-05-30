@@ -9,6 +9,7 @@
 ## Installation
 
 ```bash
+#02 - Installation
 # Pastikan bahwa composer sudah terinstall dan membuat folder untuk program
 $ composer create-project --prefer-dist yiisoft/yii2-app-advanced
 
