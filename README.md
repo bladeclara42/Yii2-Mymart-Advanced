@@ -17,6 +17,16 @@ $ composer create-project --prefer-dist yiisoft/yii2-app-advanced
 $ init --env=Development --overwrite=All --delete=All
 ```
 
+```bash
+#03 - Working with Gii
+# (Optional) setelah konfigurasi dengan init menjalankan dengan frontend dan backend untuk live server
+$ php -S 127.0.0.1:8083 -t frontend/web
+$ php -S 127.0.0.1:8083 -t backend/web
+
+
+
+```
+
 Yii 2 Advanced Project Template is a skeleton [Yii 2](https://www.yiiframework.com/) application best for
 developing complex Web applications with multiple tiers.
 
